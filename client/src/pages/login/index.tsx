@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from "../../components/layout";
-import {Card, Form, Input, Row, Space, Typography} from "antd";
+import {Card, Form, Row, Space, Typography} from "antd";
 import CustomInput from "../../components/constom-input";
 import PasswordInput from "../../components/password-input";
 import CustomButton from "../../components/costom-button";
