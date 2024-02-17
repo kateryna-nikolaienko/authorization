@@ -4,6 +4,7 @@ const {login, register, current} = require('../controllers/users');
 const { auth } = require('../middleware/auth');
 
 /* /api/user/login */
+// comment
 router.post('/login', login);
 
 /* /api/user/register */
