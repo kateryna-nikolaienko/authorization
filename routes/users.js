@@ -10,7 +10,7 @@ router.post('/login', login);
 /* /api/user/register */
 router.post('/register', register);
 
-/* /api/user/current */
+/* /api/user/current     */
 router.get('/current', auth, current);
 
 module.exports = router;

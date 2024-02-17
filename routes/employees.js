@@ -3,6 +3,7 @@ const router = express.Router();
 const {auth} = require('../middleware/auth');
 const {all, add, remove, edit, employee} = require("../controllers/employees");
 
+// dev 1
 router.get('/', auth, all);
 router.get('/:id', auth, employee);
 router.post('/add', auth, add);
